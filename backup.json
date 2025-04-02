@@ -1,0 +1,65 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Cris",
+      "email": "cris@teste.com",
+      "senhaHash": "MTIz"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "email": "pedro@poderextremo.com",
+      "senhaHash": "MTIz"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "descricao": "Lápis",
+      "preco": 1.5
+    },
+    {
+      "id": 2,
+      "descricao": "Borracha",
+      "preco": 0.8
+    },
+    {
+      "id": 3,
+      "descricao": "Fones alienígenas",
+      "preco": 40
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "data": "2025-04-02",
+      "idCliente": "1"
+    },
+    {
+      "id": 2,
+      "data": "2025-04-02",
+      "idCliente": "2"
+    }
+  ],
+  "itens_pedidos": [
+    {
+      "idPedido": "1",
+      "idProduto": "1",
+      "quantidade": 1,
+      "precoUnitario": 1.5
+    },
+    {
+      "idPedido": "1",
+      "idProduto": "2",
+      "quantidade": 1,
+      "precoUnitario": 0.8
+    },
+    {
+      "idPedido": "2",
+      "idProduto": "3",
+      "quantidade": 1,
+      "precoUnitario": 40
+    }
+  ]
+}
