@@ -1,0 +1,26 @@
+        // Declaração e inicialização de clientes
+        String cliente1 = "Cris";
+        String cliente2 = "Pedro";
+
+        // Declaração e inicialização de produtos
+        String produto1 = "Lápis";
+        double preco1 = 1.5;
+        String produto2 = "Borracha";
+        double preco2 = 0.8;
+        String produto3 = "Fones alienígenas";
+        double preco3 = 40.0;
+
+        // Pedidos e itens
+        int pedido1 = 1;
+        String dataPedido1 = "2025-04-02";
+        int pedido2 = 2;
+        String dataPedido2 = "2025-04-02";
+
+        // Itens do pedido 1 (Cris)
+        int qtdProduto1Pedido1 = 1;
+        int qtdProduto2Pedido1 = 1;
+        double totalPedido1 = (qtdProduto1Pedido1 * preco1) + (qtdProduto2Pedido1 * preco2);
+
+        // Itens do pedido 2 (Pedro)
+        int qtdProduto3Pedido2 = 1;
+        double totalPedido2 = qtdProduto3Pedido2 * preco3;
